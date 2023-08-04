@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import store, { persistor } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react'
 import { app } from './firebase.config';
+import { disableReactDevTools } from '@fvilers/disable-react-devtools'
+
+disableReactDevTools()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
