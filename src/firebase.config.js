@@ -8,7 +8,7 @@ import { getFirestore} from 'firebase/firestore'
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyB5qJisVAbjgT3WKtyRE8ntkSYv-Dig4Lo",
-    authDomain: "bazar-app-52e88.firebaseapp.com",
+    authDomain: "https://bazaronline.onrender.com/",
     projectId: "bazar-app-52e88",
     storageBucket: "bazar-app-52e88.appspot.com",
     messagingSenderId: "51798391896",
