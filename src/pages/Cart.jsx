@@ -20,7 +20,7 @@ const Cart = () => {
   // }
 
   const payment = token => {
-    fetch("/pay", {
+    fetch("https://bazaronline-api.onrender.com/pay", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
