@@ -17,7 +17,9 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-4">
         <div className="flex flex-col gap-7">
           <img className="w-32" src={logoLight} alt="logoLight" />
-          <p className="text-white text-sm tracking-wide">© ReactBD.com</p>
+          <p className="text-white text-sm tracking-wide">
+            © bazaronline.onrender.com
+          </p>
           <img className="w-56" src={paymentLogo} alt="paymentLogo" />
           <div className="flex gap-5 text-lg text-gray-400">
             <ImGithub className="hover:text-white duration-300 cursor-pointer" />
@@ -64,7 +66,11 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center">
-          <input className="bg-transparent border px-4 py-2" placeholder="e-mail" type="email" />
+          <input
+            className="bg-transparent border px-4 py-2"
+            placeholder="e-mail"
+            type="email"
+          />
           <button className="text-sm text-white border border-t-0 hover:bg-gray-900 active:bg-white active:text-black">
             Subscribe
           </button>
