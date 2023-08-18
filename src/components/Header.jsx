@@ -26,8 +26,6 @@ const Header = () => {
         !accountBarRef.current.contains(event.target) &&
         !document.getElementById("profileImgContainer").contains(event.target)
       ) {
-        // debugger
-        console.log(showAccountBar + "c");
         if (showAccountBar) {
           setShowAccountBar(false);
           const element = accountBarRef.current;
@@ -60,7 +58,6 @@ const Header = () => {
   const handleAnimateBar = () => {
     setShowAccountBar(!showAccountBar);
     const element = accountBarRef.current;
-    console.log(showAccountBar + "b");
 
     if (!showAccountBar) {
       element.animate(
@@ -130,7 +127,7 @@ const Header = () => {
             </div>
           </Link>
           <Link
-            onClick={handleAnimateBar}
+            onClick={() => userInfo && handleAnimateBar()}
             id="profileImgContainer"
             to={userInfo ? "/" : "/login"}
           >

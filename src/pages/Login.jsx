@@ -32,7 +32,6 @@ const Login = () => {
         setTimeout(() => {
           navigate("/");
         }, 1000);
-        // console.log(user);
       })
       .catch(error => console.log(error.message));
   };
@@ -54,7 +53,6 @@ const Login = () => {
         setTimeout(() => {
           navigate("/");
         }, 1000);
-        // console.log(user);
       })
       .catch(error => console.log(error.message));
   };

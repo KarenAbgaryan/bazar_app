@@ -10,7 +10,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 import { app } from './firebase.config';
 import { disableReactDevTools } from '@fvilers/disable-react-devtools'
 
-// disableReactDevTools()
+disableReactDevTools()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
